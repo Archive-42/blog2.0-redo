@@ -1,7 +1,8 @@
 .site-header {
-    background: #fff;
-    padding-bottom: 1.25em;
-    padding-top: 1.125em;
+    background: black;
+    background-color: black;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
 }
 
 .site-header-inside {
@@ -17,7 +18,7 @@
 }
 
 .site-title {
-    color: $gray-700;
+    color: white;
     font-size: 1.5em;
     font-weight: bold;
     line-height: 1.2;
@@ -85,6 +86,7 @@
 
     .site-navigation {
         margin-left: auto;
+        background-color: black;
     }
 
     .menu {
@@ -199,6 +201,7 @@
 
     .site-header {
         &:after {
+            background-color: black;
             background: rgba($gray-600, 0.6);
             content: '';
             height: 100vh;
@@ -215,7 +218,8 @@
     }
 
     .site-navigation {
-        background: #fff;
+        background: black;
+        background-color: black;
         box-sizing: border-box;
         height: 100vh;
         margin: 0;
