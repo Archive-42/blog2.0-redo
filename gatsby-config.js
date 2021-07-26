@@ -1,5 +1,8 @@
-const siteMetadata = require('./site-metadata.json')
+const siteMetadata = require('./site-metadata.json');
 
+siteMetadata.siteUrl = `https://bgoonz-blog.netlify.app/`;
+
+plugins: [`gatsby-plugin-sitemap`];
 module.exports = {
     pathPrefix: '/',
     siteMetadata: siteMetadata,
@@ -26,7 +29,7 @@ module.exports = {
             resolve: `@stackbit/gatsby-plugin-menus`,
             options: {
                 sourceUrlPath: `fields.url`,
-                pageContextProperty: `menus`,
+                pageContextProperty: `menus`
             }
         }
     ]

@@ -1,9 +1,11 @@
 root_docs_path: /docs
 sections:
-  - about
-  - getting-started
-  - ui-components
-  - manage-content
-  - tools
-  - faq
-  - community
+    - About
+    - faq
+    - links
+    - My-Content
+    - portfolio
+    - quick-reference
+    - react
+    - tools
+    - experimental
